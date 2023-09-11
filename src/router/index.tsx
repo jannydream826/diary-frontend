@@ -10,7 +10,7 @@ const Loadable =
       </Suspense>
     );
 
-const SignInPage = Loadable(lazy(() => import('../pages/SignIn')));
+const SignInPage = Loadable(lazy(() => import('../pages/SignInPage')));
 const HomePage = Loadable(lazy(() => import('../pages/HomePage')));
 
 const authRoutes: RouteObject = {
